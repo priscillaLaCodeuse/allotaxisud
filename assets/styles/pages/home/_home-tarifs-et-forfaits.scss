@@ -1,0 +1,7 @@
+#home {
+  #tarifs-et-forfaits {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

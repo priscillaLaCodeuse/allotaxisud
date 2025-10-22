@@ -1,0 +1,23 @@
+#home {
+  #temoignages {
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+
+      .grid-item {
+        padding: 20px;
+      }
+
+      h3,
+      p {
+        text-align: center;
+      }
+
+      img {
+        width: 100%;
+        height: 250px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

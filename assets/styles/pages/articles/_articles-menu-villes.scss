@@ -1,0 +1,23 @@
+.articles {
+  .menu-villes {
+    padding: 20px;
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      li {
+        list-style: none;
+        margin: 10px;
+        text-align: center;
+
+        a {
+          padding: 10px 20px;
+          margin: 0 10px;
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+}

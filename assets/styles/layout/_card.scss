@@ -1,0 +1,60 @@
+.card,
+.card-yellow {
+  width: 90%;
+  margin: 50px auto;
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: inset 0 0 20px $black;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  h2 {
+    margin-bottom: 50px;
+  }
+
+  h3 {
+    margin-bottom: 30px;
+  }
+}
+
+.card {
+  background: $bg-card;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $color1;
+  }
+
+  p,
+  a {
+    color: $white;
+  }
+}
+
+.card-yellow {
+  background: $color1;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $bg;
+  }
+
+  p,
+  a {
+    color: $bg;
+  }
+}

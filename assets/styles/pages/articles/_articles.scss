@@ -1,0 +1,33 @@
+.articles {
+  .card {
+    padding: 50px;
+  }
+  ul {
+    li {
+      list-style-position: inside;
+    }
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  h3 {
+    padding: 50px 0;
+    margin: 0;
+
+    @media screen and (max-width: 1100px) {
+      text-align: center;
+    }
+
+    &:first-of-type {
+      padding: 0 0 50px;
+    }
+  }
+
+  p {
+    @media screen and (max-width: 1100px) {
+      text-align: left;
+    }
+  }
+}
